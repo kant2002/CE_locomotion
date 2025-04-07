@@ -29,7 +29,7 @@
 
 #include "WormBody.h"
 #include <cfloat>
-#if __MSVC__
+#if _MSC_VER
 #define _USE_MATH_DEFINES
 #include <math.h>
 #endif
